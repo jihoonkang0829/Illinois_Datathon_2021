@@ -1,0 +1,1 @@
+# with refined features, use modeling libraries to obtain a correlation of each parameters and figure out the implicit bias in speech context
