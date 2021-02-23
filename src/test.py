@@ -25,4 +25,4 @@ y, sr = librosa.load(recordings_dir + file_dir)
 arr = librosa.feature.mfcc(y=y, sr=sr)
 print(arr.shape)
 
-pd.DataFrame(arr).to_csv('../mfcc_example.csv', index = False)
+pd.DataFrame(arr).to_csv('mfcc_example.csv', index = False)
