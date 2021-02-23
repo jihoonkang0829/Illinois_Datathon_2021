@@ -2,4 +2,5 @@
 ./vscode
 
 # mp3 recordings
+./data/archive
 ./data/archive/recordings/recordings

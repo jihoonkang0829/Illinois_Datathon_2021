@@ -1,9 +1,9 @@
 # this is a test file
 import librosa
-import pydub
 import numpy as numpy
 import os
 import glob
+import pandas as pd
 
 def read(f, normalized=False):
     """MP3 to numpy array"""
@@ -23,4 +23,6 @@ file_dir = 'afrikaans1.mp3'
 
 y, sr = librosa.load(recordings_dir + file_dir)
 arr = librosa.feature.mfcc(y=y, sr=sr)
-print(arr)
+print(arr.shape)
+
+pd.DataFrame(arr).to_csv('../mfcc_example.csv', index = False)
