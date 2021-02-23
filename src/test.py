@@ -1,9 +1,10 @@
 # this is a test file
 import librosa
-import numpy as numpy
+import numpy as np
 import os
 import glob
 import pandas as pd
+import pydub
 
 def read(f, normalized=False):
     """MP3 to numpy array"""
