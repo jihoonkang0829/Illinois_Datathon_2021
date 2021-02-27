@@ -13,4 +13,4 @@ Please attach your youtube link down below:
     - Jaewook Lee
 
  - Discription:
-    Uses CNN clasifier to determine the ethnicity and reduce the error of misinterpreting the utterance of the speaker.
+    Minor language speakers are often underrepresented in the era of technology, where the voice assistant services enrich our lives. In this project, our team constructed a deep learning model to identify the native language of the speakers based on their English accent, so their voice can be better heard.
